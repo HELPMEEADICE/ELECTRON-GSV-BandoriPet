@@ -1,0 +1,38 @@
+{
+  "name": "bandori-desktop-pet-append",
+  "version": "2.0.0-append",
+  "description": "Bandori Desktop Pet ~Voice Append~",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win --x64"
+  },
+  "build": {
+    "appId": "moe.chihayadesuwa.bandori.pet.append",
+    "productName": "BandoriPet Voice Append",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*"
+    ],
+    "win": {
+      "target": "dir"
+    },
+    "asar": false
+  },
+  "dependencies": {
+    "@coooookies/windows-smtc-monitor": "^1.0.12",
+    "@coooookies/windows-smtc-monitor-win32-x64-msvc": "^1.0.12",
+    "matter-js": "^0.20.0",
+    "pixi.js": "^6.5.2"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "author": {
+    "name": "千早ですわ",
+    "email": "827677473@qq.com"
+  }
+}
