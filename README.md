@@ -26,9 +26,7 @@
 配置角色的语音模型：在主源码开头的`voiceConfigs`常量里修改相对路径（注意此时你修改的路径必须和任何角色的模型文件路径相符）
 
 例：模型路径：`GPT-SoVITS\GPT_weights_v2ProPlus\XXX.CKPT`
-
     主源码相对路径：`GPT-SoVITS\GPT_weights_v2ProPlus\XXX.CKPT`
-    
     步数文件以及参考音频同上。
     
 ②修改GSV运行路径。
